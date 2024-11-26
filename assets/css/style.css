@@ -1,0 +1,81 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    max-width: 350px;
+    max-height: 550px;
+    margin-top: 60px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+img {
+    max-width: 85px;
+    max-height: 85px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: hsl(75, 94%, 57%);
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 0.76rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 275px;
+    height: 43px;
+    font-weight: 600;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    border: 1px solid hsl(0, 0%, 20%);
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: hsl(75, 94%, 57%);
+    transition: 0.5s;
+}
