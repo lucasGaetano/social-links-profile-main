@@ -61,7 +61,7 @@ h3 {
     margin-bottom: 10px;
 }
 
-button {
+.social-media-btn {
     width: 275px;
     height: 43px;
     font-weight: 600;
@@ -74,8 +74,8 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.social-media-btn:hover {
     color: black;
     background-color: hsl(75, 94%, 57%);
-    transition: 0.4s;
+    transition: 0.5s;
 }
