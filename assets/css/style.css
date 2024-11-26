@@ -77,5 +77,5 @@ button {
 button:hover {
     color: black;
     background-color: hsl(75, 94%, 57%);
-    transition: 0.5s;
+    transition: 0.4s;
 }
